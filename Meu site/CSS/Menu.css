@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Rambla&family=Tajawal:wght@500&display=swap');
+<body>
+  <div id="tudo">
+<div id="topo">
+  <div id="areamenu">
+    <div id="logo">
+        <h1>FIP PRODUTORA</h>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="Sobre.html">SOBRE NÓS</a></li>
+        <li><a href="Nossos Serviços.html">NOSSOS SERVIÇOS</a></li>
+        <li><a href="Galeria de fotos.html">GALERIA DE FOTOS</a></li>
+        <li><a href="Contato.html">CONTATO</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div
+</body>
+{
+  margin: 1px;
+  padding: -1px;
+  box-sizing: border-box;
+}
+#areamenu{
+  width: 1100px;
+  height: 80px;
+  margin: 20px auto;
+  background: #F3A793;
+}
+#logo{
+  width: 200px;
+  line-height: 24px;
+  float: left;
+  margin-top: -45px;
+  }
+#logo h1{
+  font-family:'Tajawal', sans-serif, verdana;
+  font-size: 29px;
+  color: #000 ;
+  text-align: left;
+  font-weight: 200px;
+}
+#menu{
+  width:800px
+  float: left;
+  line-height: 90px;
+  text-align: right;
+}
+#menu ul{
+  list-style: none;
+}
+#menu ul li{
+display: inline-block;
+}
+#menu ul li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 20px;
+  color: #000;
+  font-size: 15px;
+  font-family:'Tajawal', sans-serif, verdana;
+  margin-right: 20px;
+}
+#menu ul li a:hover{
+ background:#FFF;
+ height: 60px;
+ margin-top: 0px; max-height: 10px;
+}

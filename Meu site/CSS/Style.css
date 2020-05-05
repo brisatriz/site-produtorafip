@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Rambla&family=Tajawal:wght@500&display=swap');
+ h1{
+color: #F05632; font-size:60px; font-family:'Tajawal', sans-serif, verdana; font-weight: semi-bold; text-decoration:none; letter-spacing: 2,5px; text-align: center;
+margin: 20px; padding-top: 40px;
+}
+html,body{height: 100%}
+
+geral {
+    min-height:100%;}
+h2{
+  color:#5DAB96;font-size:26px; font-family: 'Neucha', cursive;font-weight:lighter; line-height: 5px; text-align: center;
+  margin-top:20px;
+  padding-top: 20px;
+  margin-bottom: auto;
+}
+
+p{
+margin-bottom: 40px;margin-top: 20px;margin-right: 5px;margin-left: 20px;
+}
+
+  footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
+#coluna-um, #coluna-dois{
+  font-family:'Rambla', sans-serif;
+  font-size: 16px;
+  width: 500px;
+  height: 200px;
+ border-collapse: collapse;
+  border: 0px;
+  margin-right: 30px; margin-left: 250px; margin-top: 60px; margin-bottom: 50px;
+  font-weight: normal;
+  text-align: justify;
+  display:inline-block;
+  float: left;
+}
+
+#coluna-dois{
+margin-right: 200px;
+margin-left: 50px;
+width: 301px;
+float:right;
+}
+
+#coluna-um p1, #coluna-dois p2{
+  border-collapse: collapse;
+  text-align: center;
+}
+
+body{
+  background-color: #F5EEE4;
+}
+
+img{
+  margin-left:40px; margin-right: 40px; margin-top: 15px; margin-bottom: 15px;
+  width: 200px;
+  height: 200px;
+}
+
+table{
+    margin: 50px auto;
+    width: 1000px;
+    border-collapse: collapse;
+    font-family: 'Tajawal', sans-serif, verdana;
+    font-size: 18px;
+    text-align: center;
+  }
+  caption{
+    margin-bottom: 5px;
+    color: #5DAB96;
+    font-size: 22px;
+    font-weight: 900;
+  }
+  th{
+    background: #5DAB96;
+    font-size: 20px;
+    color: #FFF;
+    }
+  td, th{
+    width: 20%;
+    height: 50px;
+    margin: 15px;
+    padding: 10 auto;
+    border: 1px solid #000;
+  }
+  tfoot{
+    background: #5DAB96;
+    color: #FFF;
+  }
+  tbody tr:hover{
+    cursor: auto;
+    background: #5DAB96;
+    color: #FFF;
+    }
+    {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+
+    body {
+      font-family: 'Tajawal', sans-serif, verdana;
+      font-weight: 200;
+      font-size: 12px;
+      line-height: 30px;
+      color: #000;
+      background: #F5EEE4;
+    }
+
+    #formulario {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #5DAB96;
+      }
+
+    #contato {
+      background: #F9F9F9;
+      padding:  25px;
+      margin: 50px 0;
+    }
+
+    #contato h3 {
+      color: #F05632;
+      font-size: 30px;
+      font-weight: 400;
+    }
+
+    #contato h4 {
+      margin: 5px 0 15px;
+      font-size: 17px;
+      color: #5DAB96;
+    }
+
+    fieldset {
+      border:0;
+      margin: 0 0 10px;
+      min-width: 100%;
+      width: 100%;
+    }
+
+    .meuform{
+      font-size: 16px;
+      font-family:  'Tajawal', sans-serif, verdana;
+      color: #5DAB96;
+      width: 100%;
+      border: 1px solid #CCC;
+      background: #FFF;
+      margin: 0 15px 5px;
+      padding: 10px;
+    }
+
+    textarea {
+      width: 500px;
+      height: 100px;
+      max-width: 100%;
+      resize: none;
+    }
+
+    button {
+      cursor: pointer;
+      width: 120px;
+      border: none;
+      background: #F05632;
+      color: #FFF;
+      font-weight: 700;
+      padding: 20px;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    button[type="reset"]{
+      background: #5DAB96;
+    }
+
+    .pergunta{
+      margin:  0 5px;
+      color: #5DAB96;
+      font-size: 16px;
+     }
+
+* html #tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+	}

@@ -1,0 +1,7 @@
+<fieldset>
+  <span class="pergunta">Motivo do seu contato:</span>
+  <input type="checkbox" name="con1" id="con1"><label for="con1" class="pergunta">Fazer um elogio</label>
+  <input type="checkbox" name="con2" id="con2"><label for="con2" class="pergunta">Fazer uma reclamação</label>
+  <input type="checkbox" name="con3" id="con3"><label for="con3" class="pergunta">Fazer uma pergunta</label>
+  <input type="checkbox" name="con4" id="con4"><label for="con4" class="pergunta">Outros</label>
+</fieldset>
